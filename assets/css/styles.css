@@ -1,0 +1,139 @@
+/* styles.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e6142d; /* Couleur rouge */
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+.navbar-fixed .logo {
+    font-size: 36px; /* Augmente la taille de la police */
+    font-weight: bold;
+    margin-bottom: 35px; /* Espace entre le logo et les boutons */
+}
+
+.navbar-fixed nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px; /* Ajoute une marge de 20 pixels en bas */
+}
+
+.navbar-fixed nav ul li {
+    display: inline;
+    margin: 0 10px; /* Ajoute une marge de 10 pixels à gauche et à droite */
+}
+
+.navbar-fixed nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.navbar-fixed nav ul li a:hover {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.navbar-fixed nav ul li a.active {
+    background-color: white;
+    color: #e6142d;
+    border-radius: 4px;
+}
+
+#hero {
+    margin-top: 15px; /* Espace pour le bandeau fixe et les boutons */
+    background-color: #f7f7f7;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #212121;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #76767e;
+}
+
+.cta-button {
+    background-color: #e6142d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+.content-section {
+    padding: 20px 350px; /* Éloigne le texte de 350 pixels des bords */
+    margin: 20px 0;
+}
+
+.content-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 16px;
+    color: #333;
+    text-indent: 2em; /* Ajoute une indentation de 2em (environ 32px) */
+    text-align: justify; /* Justifie le texte */
+}
+
+.light-section {
+    background-color: #f7f7f7;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #212121;
+    color: white;
+}
+
+/* Ajout de la classe pour la page active */
+.active-page {
+    background-color: white;
+}
+
+/* Ajout de la classe pour les titres des parties */
+.section-title {
+    background-color: #e6142d; /* Fond rouge */
+    color: white;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
