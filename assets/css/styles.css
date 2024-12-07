@@ -65,7 +65,7 @@ body {
 #hero {
     margin-top: 15px; /* Espace pour le bandeau fixe et les boutons */
     background-color: #f7f7f7;
-    padding: 20px 20px;
+    padding: 20px 0px;
     text-align: center;
 }
 
@@ -94,12 +94,12 @@ body {
 
 .content-section {
     padding: 20px 350px; /* Éloigne le texte de 350 pixels des bords */
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .content-section h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .content-section p {
@@ -137,3 +137,21 @@ footer {
     margin-top: 20px;
 }
 
+figure {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0; /* Espacement autour du bloc */
+}
+
+figure img {
+    max-width: 100%; /* Les images ne dépasseront pas leur conteneur */
+    display: block; /* Assure qu'elles prennent une ligne chacune */
+    margin: 0 auto; /* Centre les images dans leur conteneur */
+    align-self: flex-end;
+}
+
+figcaption {
+    font-size: 14px; /* Taille du texte de la légende */
+    color: #555; /* Couleur grise pour le texte */
+    margin-top: 10px; /* Espacement entre les images et la légende */
+}
